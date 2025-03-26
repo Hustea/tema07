@@ -18,7 +18,7 @@ public class Ejercicio3 {
     }
 
     /**
-     * ESTO ES DE GERMAN VA EN IO CREO
+     * solicitar numeros
      * @param mensaje
      * @return
      */
@@ -45,6 +45,11 @@ public class Ejercicio3 {
         return valores;
     }
 
+    /**
+     * imprimir por pantalla
+     * @param array
+     * @return
+     */
     public static double sacarNumeroMayorArray(double[] array){
         double aux = 0;
         for(int i = 0; i < array.length; i++){
