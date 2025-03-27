@@ -30,9 +30,10 @@ public class Ejercicio3 {
         boolean validar = false;
         do{
             try{
-                System.out.printf("indica el numero %d:\n", contador++);
+                System.out.printf("indica el numero %d:\n", contador);
                 numero = Double.parseDouble(scanner.nextLine());
                 numeros.add(numero);
+                contador++;
             }catch (NumberFormatException nfe){
                 validar = true;
             }

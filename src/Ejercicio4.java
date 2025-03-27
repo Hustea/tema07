@@ -5,10 +5,12 @@ public class Ejercicio4 {
     public static void main(String[] args) {
         final int TAMANYO = 5;
         int[] array = new int[TAMANYO];
+        int[] array2 = null;
         String mensaje = "Inrtoduzca un numero positivo";
 
         try{
-            solicitarNumeros(array, mensaje);
+            solicitarNumeros(array2, mensaje);
+            //solicitarNumeros(array, mensaje);
             mostrarArray(array);
         }catch(NullPointerException npe){
             System.out.println("El array no esta creado");
