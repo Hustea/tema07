@@ -7,8 +7,8 @@ public class Ejercicio7 {
         String[] arrayMal = {"Pablo", "Ivan", "Tomas", null};
 
         try{
-            mostrarCadenasArray(array);
-            //mostrarCadenasArray(arrayMal);
+            //mostrarCadenasArray(array);
+            mostrarCadenasArray(arrayMal);
         }catch (NullPointerException npe){
             System.out.println("No deben haber valores Null en el array");
         }
@@ -20,7 +20,3 @@ public class Ejercicio7 {
         }
     }
 }
-
-
-
-

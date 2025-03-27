@@ -20,12 +20,12 @@ public class Ejercicio9 {
             //double[] arrayDividido = dividirEntreArray(DIVISOR, array3, TAMANYO);
             //double[] arrayDividido = dividirEntreArray(DIVISOR, array4, TAMANYO);
             mostrarArray(arrayDividido);
-        }catch ( ArithmeticException ae){
-            System.out.println("No puedes dividir por 0");
-        }catch (NullPointerException npe){
-            System.out.println("Los valores no pueden ser Null");
-        }catch (IndexOutOfBoundsException ioob){
-            System.out.println("El array no puede ser menor de "+TAMANYO);
+        }catch (ArithmeticZeroDivisorException azde){
+            System.out.println(azde.getMessage());
+        }catch (NullArrayPointerException nape){
+            System.out.println(nape.getMessage());
+        }catch (IndexArrayOutOfBoundsException iaoobe){
+            System.out.println(iaoobe.getMessage());
         }
     }
 
