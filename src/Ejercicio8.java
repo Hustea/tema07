@@ -25,6 +25,13 @@ public class Ejercicio8 {
         }
     }
 
+    /**
+     * Metodo utilizado para dividir numero y almacenarlos en otro array
+     * @param num divisor
+     * @param array array
+     * @param tamanyo tamanyo del bucle
+     * @return array ya dividido
+     */
     public static double[] dividirEntreArray(int num, int[] array, int tamanyo){
         double[] arrayDividido = new double[array.length];
         for(int i = 0; i < tamanyo; i++){
@@ -33,6 +40,10 @@ public class Ejercicio8 {
         return arrayDividido;
     }
 
+    /**
+     * metodo utilizado para mostrar el contenido de un array
+     * @param array
+     */
     public static void mostrarArray(double[] array){
         for(int i = 0; i < array.length; i++){
             System.out.println((i+1)+". "+array[i]);
