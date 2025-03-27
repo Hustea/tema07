@@ -14,6 +14,10 @@ public class Ejercicio7 {
         }
     }
 
+    /**
+     * Metodo para mostrar cadena de array
+     * @param array el array en cuaestion
+     */
     public static void mostrarCadenasArray(String[] array){
         for(int i = 0; i < array.length; i++){
             System.out.println((i+1)+". "+array[i].charAt(0));
